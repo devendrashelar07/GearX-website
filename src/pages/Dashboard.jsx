@@ -11,16 +11,15 @@ import {
   Menu, 
   X, 
   MapPin, 
-  Star, 
   Clock, 
   Wrench, 
   PlusCircle, 
   ShieldCheck, 
   ArrowUpRight, 
-  CheckCircle,
-  AlertCircle
+  CheckCircle, 
+  AlertCircle 
 } from 'lucide-react';
-import { Button, Card, Badge, StarRating } from '../components/ui';
+import { Button, Card, Badge } from '../components/ui';
 import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
@@ -76,8 +75,7 @@ const Dashboard = () => {
       date: '14 Aug 2024',
       vehicle: 'Honda City',
       amount: '₹3,400',
-      status: 'Completed',
-      rating: 5
+      status: 'Completed'
     },
     {
       id: 'SRV-0982',
@@ -86,8 +84,7 @@ const Dashboard = () => {
       date: '28 Jul 2024',
       vehicle: 'Hyundai Ioniq 5',
       amount: '₹950',
-      status: 'Completed',
-      rating: 5
+      status: 'Completed'
     },
     {
       id: 'SRV-0871',
@@ -96,8 +93,7 @@ const Dashboard = () => {
       date: '10 Jul 2024',
       vehicle: 'Hyundai Ioniq 5',
       amount: '₹720',
-      status: 'Completed',
-      rating: 4.8
+      status: 'Completed'
     }
   ];
 

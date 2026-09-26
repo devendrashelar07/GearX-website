@@ -44,7 +44,7 @@ const Services = () => {
       badge: 'Garages are yet to be listed',
       badgeType: 'status',
       icon: Wrench,
-      desc: 'Find registered garages based on your location. View services, ratings, and availability.',
+      desc: 'Find registered garages based on your location. View services, facility details, and availability.',
       notice: 'Garages are yet to be listed while we conduct quality audits and onboard verified workshops.',
       features: [
         'Multi-point inspection audit',

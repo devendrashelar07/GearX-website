@@ -190,19 +190,19 @@ const EVCharging = () => {
                 </svg>
               </div>
 
-              {/* Station Live Stats */}
+              {/* Station Capability Badges */}
               <div className="grid grid-cols-3 gap-2 pt-4 border-t border-white/10 text-center">
                 <div className="p-2 rounded-xl bg-white/[0.03]">
-                  <span className="text-[10px] uppercase font-mono text-gray-400 block">Fast Chargers</span>
-                  <span className="font-heading font-bold text-white text-sm">240+ Active</span>
+                  <span className="text-[10px] uppercase font-mono text-gray-400 block">Connector Types</span>
+                  <span className="font-heading font-bold text-white text-xs sm:text-sm">CCS2 / AC Type-2</span>
                 </div>
                 <div className="p-2 rounded-xl bg-white/[0.03]">
-                  <span className="text-[10px] uppercase font-mono text-gray-400 block">Avg. Session</span>
-                  <span className="font-heading font-bold text-[#00e676] text-sm">22 Mins</span>
+                  <span className="text-[10px] uppercase font-mono text-gray-400 block">Bay Access</span>
+                  <span className="font-heading font-bold text-[#00e676] text-xs sm:text-sm">Instant Slot Lock</span>
                 </div>
                 <div className="p-2 rounded-xl bg-white/[0.03]">
                   <span className="text-[10px] uppercase font-mono text-gray-400 block">Host Payouts</span>
-                  <span className="font-heading font-bold text-white text-sm">Weekly</span>
+                  <span className="font-heading font-bold text-white text-xs sm:text-sm">Direct Bank</span>
                 </div>
               </div>
 

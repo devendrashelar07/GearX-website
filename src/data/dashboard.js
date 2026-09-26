@@ -26,8 +26,7 @@ export const dashboardData = {
       service: 'Brake Repair',
       date: 'Sep 15, 2026',
       amount: '₹3,200',
-      status: 'Completed',
-      rating: 5
+      status: 'Completed'
     },
     {
       id: 'SRV-102',
@@ -35,8 +34,7 @@ export const dashboardData = {
       service: 'AC Service',
       date: 'Aug 02, 2026',
       amount: '₹1,500',
-      status: 'Completed',
-      rating: 4
+      status: 'Completed'
     },
     {
       id: 'SRV-103',
@@ -44,8 +42,7 @@ export const dashboardData = {
       service: 'Oil Change',
       date: 'Jun 20, 2026',
       amount: '₹800',
-      status: 'Completed',
-      rating: 4
+      status: 'Completed'
     },
     {
       id: 'SRV-104',
@@ -53,27 +50,23 @@ export const dashboardData = {
       service: 'Battery Check',
       date: 'Apr 10, 2026',
       amount: '₹500',
-      status: 'Completed',
-      rating: 5
+      status: 'Completed'
     }
   ],
   nearbyGarages: [
     {
       name: 'AutoCare Max',
       distance: '2.3 km',
-      rating: 4.8,
       servicesCount: 5
     },
     {
       name: 'Speedy Wheels',
       distance: '3.1 km',
-      rating: 4.5,
       servicesCount: 3
     },
     {
       name: 'Pune Pro',
       distance: '1.8 km',
-      rating: 4.9,
       servicesCount: 3
     }
   ],

@@ -14,7 +14,7 @@ const About = () => {
     {
       icon: <Shield className="w-8 h-8 text-accent" />,
       title: 'Trust & Transparency',
-      description: 'We build trust through transparent pricing, verified reviews, and guaranteed service quality from our network of partners.'
+      description: 'We build trust through transparent pricing, verified partner standards, and guaranteed service quality from our network of partners.'
     },
     {
       icon: <Globe className="w-8 h-8 text-accent" />,
@@ -28,12 +28,6 @@ const About = () => {
     { icon: <Home className="w-6 h-6 text-white" />, title: 'Home Services', desc: 'Get professional vehicle care right at your doorstep.' },
     { icon: <Droplets className="w-6 h-6 text-white" />, title: 'Washing Centers', desc: 'Find the best automated and manual car wash facilities.' },
     { icon: <Zap className="w-6 h-6 text-white" />, title: 'EV Charging', desc: 'Locate and book available charging slots seamlessly.' }
-  ];
-
-  const team = [
-    { name: 'Rahul Sharma', role: 'Founder & CEO', initials: 'RS' },
-    { name: 'Priya Patel', role: 'Head of Engineering', initials: 'PP' },
-    { name: 'Amit Kumar', role: 'Design Lead', initials: 'AK' }
   ];
 
   return (
@@ -109,31 +103,13 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Section Placeholder */}
-      <section className="py-20 bg-dark-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title="Our Team" subtitle="We're a passionate team of automotive and tech enthusiasts building the future of vehicle services." centered />
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12 max-w-4xl mx-auto">
-            {team.map((member, idx) => (
-              <div key={idx} className="text-center">
-                <div className="w-32 h-32 mx-auto bg-gradient-to-br from-dark-700 to-dark-600 rounded-full flex items-center justify-center mb-4 border-2 border-white/10">
-                  <span className="text-3xl font-bold text-gray-400">{member.initials}</span>
-                </div>
-                <h4 className="text-lg font-bold text-white">{member.name}</h4>
-                <p className="text-sm text-accent">{member.role}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-accent/5"></div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">Ready to Get Started?</h2>
           <p className="text-lg text-gray-400 mb-10">
-            Join thousands of satisfied users and businesses on the GearX platform today.
+            Join vehicle owners and businesses on the GearX platform today.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link to="/">

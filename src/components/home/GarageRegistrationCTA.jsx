@@ -123,7 +123,7 @@ const GarageRegistrationCTA = () => {
             transition={{ delay: 0.2 }}
             className="text-base sm:text-lg text-gray-300 leading-relaxed"
           >
-            Garages are currently being vetted and listed on GearX. Join our certified multi-brand network to receive advance bookings, digital job cards, and verified customer reviews.
+            Garages are currently being vetted and listed on GearX. Join our certified multi-brand network to receive advance bookings, digital job cards, and direct customer dispatches.
           </motion.p>
         </div>
 

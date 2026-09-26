@@ -33,7 +33,7 @@ const benefits = [
   {
     icon: Eye,
     title: 'Transparent Information',
-    desc: 'Pre-approved rate cards, upfront estimates, and verified customer reviews. Zero bait-and-switch.'
+    desc: 'Pre-approved rate cards, upfront estimates, and direct digital job cards. Zero bait-and-switch.'
   },
   {
     icon: Home,

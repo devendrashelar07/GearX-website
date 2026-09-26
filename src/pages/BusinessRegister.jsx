@@ -78,9 +78,9 @@ const BusinessRegister = () => {
   };
 
   const benefits = [
-    "Get discovered by thousands of vehicle owners",
+    "Get discovered by vehicle owners in your city",
     "Manage bookings easily through our dashboard",
-    "Build your online reputation with verified reviews",
+    "Build your online reputation with verified workshop credentials",
     "Grow your customer base organically",
     "Free to register with no hidden charges",
     "Analytics dashboard to track your performance (coming soon)"

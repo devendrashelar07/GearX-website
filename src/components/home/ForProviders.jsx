@@ -19,7 +19,7 @@ const providerFeatures = [
   { title: 'Get discovered by nearby customers', desc: 'Pin your facility on the GearX map to capture high-intent vehicle owners.' },
   { title: 'Manage service requests', desc: 'Accept, schedule, or update customer job orders in a single unified portal.' },
   { title: 'Manage bay availability', desc: 'Set working hours, mechanic availability, and lift slots to prevent crowding.' },
-  { title: 'Build your customer base', desc: 'Collect verified reviews, build repeat loyalists, and offer recurring care plans.' },
+  { title: 'Build your customer base', desc: 'Build repeat loyalists, manage workshop capacity, and offer recurring care plans.' },
   { title: 'Receive instant digital bookings', desc: 'Guaranteed customer deposits, advance booking notifications, and fast payouts.' }
 ];
 
@@ -103,19 +103,19 @@ const ForProviders = () => {
                 </span>
               </div>
 
-              {/* Stat Gauges */}
+              {/* Operational Capabilities */}
               <div className="grid grid-cols-3 gap-3 mb-6">
                 <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
-                  <span className="text-[10px] uppercase font-mono text-gray-400 block mb-1">Weekly Bookings</span>
-                  <span className="text-xl font-heading font-extrabold text-white">38 Orders</span>
+                  <span className="text-[10px] uppercase font-mono text-gray-400 block mb-1">Bay Scheduling</span>
+                  <span className="text-sm sm:text-base font-heading font-bold text-white">Active Dispatch</span>
                 </div>
                 <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
-                  <span className="text-[10px] uppercase font-mono text-gray-400 block mb-1">Customer Rating</span>
-                  <span className="text-xl font-heading font-extrabold text-amber-400">4.9 ★</span>
+                  <span className="text-[10px] uppercase font-mono text-gray-400 block mb-1">Job Cards</span>
+                  <span className="text-sm sm:text-base font-heading font-bold text-[#00e5ff]">Digital Flow</span>
                 </div>
                 <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-center">
-                  <span className="text-[10px] uppercase font-mono text-gray-400 block mb-1">Net Revenue</span>
-                  <span className="text-xl font-heading font-extrabold text-[#00e676]">₹1.42L</span>
+                  <span className="text-[10px] uppercase font-mono text-gray-400 block mb-1">Settlements</span>
+                  <span className="text-sm sm:text-base font-heading font-bold text-[#00e676]">Direct Bank</span>
                 </div>
               </div>
 

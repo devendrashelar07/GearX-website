@@ -29,7 +29,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Services', path: '/#services' },
-    { name: 'Find Garage', path: '/find-garage', badge: 'Listing Soon' },
+    { name: 'Find Garage', path: '/find-garage' },
     { name: 'EV Charging', path: '/#ev-charging' },
     { name: 'For Business', path: '/register-business' },
     { name: 'About', path: '/about' },
